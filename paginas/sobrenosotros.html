@@ -13,24 +13,42 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;1,700&family=Playfair+Display:wght@400;500&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/d7eb23b73b.js" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
         <link rel="stylesheet" href="../estilos/style.css">
     </head>
 <body>
-    <header class="header-flex">
-        <img src="../imagenes/Logo.png" alt="logo" width="57">
-        <nav class="menu">
-            <ul class="flex-container-menu">
-                <li class="caja"><a href="../index.html">Home</a></li>
-                <li class="caja"><a href="./sobrenosotros.html">Sobre Nosotros</a></li>
-                <li class="caja"><a href="./instalaciones.html">Instalaciones</a></li>
-                <li class="caja"><a href="./actividades.html">Actividades</a></li>
-                <li class="caja"><a href="./ubicacion.html">Ubicación</a></li>
-                <li class="caja"><a href="./contacto.html">Contacto</a></li>
-                <li class="caja"><a href="https://www.google.com" target="_blank">Ir a GOOGLE</a></li>
-            </ul>
-        </nav>
-    
-    </header>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html">SpartacusGym</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./actividades.html">Atividades</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./contacto.html">Contacto</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./instalaciones.html">Instalaciones</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Sobre Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./ubicacion.html">Ubicacion</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </header>
     <main class="main-fotos-titulo">
         <div class="titulo-main">               
             <h2 class="titulo__actividades">Quienes Somos</h2>
@@ -56,41 +74,46 @@
         <div class="foto2"><img src="../imagenes/profe5.png" alt="profe5" width="300px" height="200px"></div>
         <div class="foto3"><img src="../imagenes/profe6.png" alt="profe6" width="300px" height="200px"></div>
     </main>
-<footer>
-    <div class="container__footer">
-        <div class="box__footer">
-            <div class="logo">
-                <img src="../imagenes/Logo.png" alt="logo">
+    <footer class="container-footer">
+        <div class="container__footer">
+            <div class="box__footer">
+                <div class="logo">
+                    <img src="../imagenes/Logo.png" alt="logo">
+                </div>
+                <div class="terms">
+                    <p>Somos un gimnasio distinto, donde el conocimiento con la última tecnología en 
+                        entrenamiento para estar siempre a la vanguardia.
+                        Con el mejor equipamiento para todo
+                        tipo de persona, tanto para aquellas que quieran realizar un entrenamiento
+                        recreativo como para los deportistas más exigentes.
+                    </p>
+                </div>    
             </div>
-            <div class="terms">
-                <p>Somos un gimnasio distinto, donde el conocimiento con la última tecnología en 
-                    entrenamiento para estar siempre a la vanguardia.
-                    Con el mejor equipamiento para todo
-                    tipo de persona, tanto para aquellas que quieran realizar un entrenamiento
-                    recreativo como para los deportistas más exigentes.
-                </p>
+
+            <div class="box__footer">
+                <h2>Mapa</h2>
+                    <a href="./sobrenosotros.html">Sobre nosotros</a>
+                    <a href="./actividades.html">Actividades</a>
+                    <a href="./ubicacion.html">Ubicación</a>
+                    <a href="./contacto.html">Contacto</a>
+                    <a href="./instalaciones.html">Instalaciones</a>
             </div>
-        </div>
-        <div class="box__footer">
-            <h2>Mapa</h2>
-            <a href="sobrenosotros.html">Sobre nosotros</a>
-            <a href="instalaciones.html">Instalaciones</a>
-            <a href="actividades.html">Actividades</a>
-            <a href="ubicacion.html">Ubicación</a>
-            <a href="contacto.html">Contacto</a>
-        </div>
             <div class="box__footer">
                 <h2>Redes sociales</h2>
-                    <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-                    <a href="https://www.Twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-                    <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="mailto:Spartacusgym@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
-                    <a href="https://web.whatsapp.com/" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.Twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="mailto:Spartacusgym@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+                <a href="https://web.whatsapp.com/" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
             </div>
-    </div>
+        </div>
         <div class="box__copyright">
             <hr>
             <p>Todos los derechos reservados
-            <b>SpartacusGym </b>2022</p>
+            <b>SpartacusGym </b>2022
+            </p>
         </div>
-</footer>
+    </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -29,42 +29,28 @@ html{
     font-size: 62,5%;
 }
 
- /*estilo header*/
- .header-flex {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #FB8500;
-    padding: 8rem 3rem 8rem 3rem;
-  }
+ /*estilo header / con Bootstrap*/
 
+ .bg-light {
+    background-color: #FB8500 !important;
+ 
+}
 
+.navbar-brand {
+    color: #219EBC;
+}
 
-  /*"text-decoration: none;" es propiedad del enlace "A"*/
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: #fff;
+}
 
-.header-flex nav ul li a {
-    text-decoration: none;
-    font-weight: 400; /*ancho de las letras*/
-  }
-
-  .header-flex nav ul li {
-    list-style: none;
-    display: inline-block;
-    background-color: #fff;
-    padding: 0.5rem;
-    border-radius: 1rem;
-    margin: 0 10px 0 10px;
-  }
-
-
-  header {
-
-    height: 4em;
+header {
     opacity: 0.7;
     z-index: 100;
 
 }
+
+
 
 nav a:hover {
     color: #9F006F;
@@ -409,17 +395,18 @@ main div iframe:hover {
 
 footer {
     background-color: #333;
-    height: 30em;
+
 }
 
 .container__footer {
     
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    max-width: 1200px;
-    margin: auto;
+    justify-content: space-around;
+    max-width: 1337px;
+    margin: auto; 
     margin-top: 100px;
+ 
 
 }
 
@@ -480,46 +467,6 @@ footer {
     background-color: aqua;
 }
 
-
-
-/*estilo contacto*/
-
-.container__contacto {
-    display: grid;
-    grid-template-columns: 1fr 1.2fr 1fr;
-    grid-template-areas:". container-main-contacto . "
-                        ". container-main-comentario .";
-    margin: 2rem 0rem;
-}
-
-.container-main-contacto {
-    grid-area: container-main-contacto;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    background-color: #219EBC;
-    border-radius: 10px;
-    margin: 3rem 0rem;
-}
-
-.container-main-contacto div {
-margin: 1rem 0rem;
-}
-
-.container-main-comentario {
-    grid-area: container-main-comentario;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    background-color: #219EBC;
-    border-radius: 10px;
-    margin: 3rem 0rem;
-
-}
-
-
-
-
 .main-fotos-titulo {
     display: grid;
     justify-content: center;  
@@ -545,4 +492,11 @@ margin: 1rem 0rem;
     padding: 1rem 0rem;
 }
 
+}
+
+.fondo-form {
+    background-color: #219EBC;
+    padding: 2rem 6rem;
+    margin-bottom: 0;
+    margin-top: 6rem;
 }

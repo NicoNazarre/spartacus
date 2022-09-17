@@ -13,23 +13,103 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;1,700&family=Playfair+Display:wght@400;500&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/d7eb23b73b.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="estilos/style.css">
 </head>
 <body>
-    <header class="header-flex">
-        <img src="imagenes/Logo.png" alt="logo" width="57">
-            <nav class="menu">
-                <ul class="flex-container-menu">
-                    <li class="caja"><a href="index.html">Home</a></li>
-                    <li class="caja"><a href="paginas/sobrenosotros.html">Sobre Nosotros</a></li>
-                    <li class="caja"><a href="paginas/instalaciones.html">Instalaciones</a></li>
-                    <li class="caja"><a href="paginas/actividades.html">Actividades</a></li>
-                    <li class="caja"><a href="paginas/ubicacion.html">Ubicación</a></li>
-                    <li class="caja"><a href="paginas/contacto.html">Contacto</a></li>
-                    <li class="caja"><a href="https://www.google.com" target="_blank">Ir a GOOGLE</a></li>
-                </ul>
-            </nav>
+   <!-- <header class="container-fluid">
+        <nav class="navbar bg-light fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">SpartacusGym</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">SpartacusGym</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./paginas/actividades.html">Atividades</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./paginas/contacto.html">Contacto</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./paginas/instalaciones.html">Instalaciones</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./paginas/sobrenosotros.html">Sobre Nosotros</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./paginas/ubicacion.html">Ubicacion</a>
+                      </li>
+                    
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Redes sociales
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="https://www.Facebook.com" target="_blank">Facebook</a></li>
+                        <li><a class="dropdown-item" href="https://www.Instagram.com" target="_blank">Instagram</a></li>
+                        <li><a class="dropdown-item" href="https://www.Twitter.com" target="_blank">Twitter</a></li>
+                        
+                        <li>
+                          <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>-->
+    <header>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">SpartacusGym</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./paginas/actividades.html">Atividades</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./paginas/contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./paginas/instalaciones.html">Instalaciones</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./paginas/sobrenosotros.html">Sobre Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./paginas/ubicacion.html">Ubicacion</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
+    
     <section class="container__fotos">
     <main class="main-fotos">
         <div class="parrafo1">
@@ -52,11 +132,11 @@
         <div class="foto6"><img src="imagenes/foto6.png" alt="foto6" width="300px" height="200px"></div>
     </main>
 </section>
-    <footer class="container__footer">
+    <footer class="container-footer">
         <div class="container__footer">
             <div class="box__footer">
                 <div class="logo">
-                    <img src="imagenes/Logo.png" alt="logo">
+                    <img src="./imagenes/Logo.png" alt="logo">
                 </div>
                 <div class="terms">
                     <p>Somos un gimnasio distinto, donde el conocimiento con la última tecnología en 
@@ -92,5 +172,7 @@
             </p>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
 </body>
 </html>
