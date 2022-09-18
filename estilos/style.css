@@ -10,7 +10,7 @@
     #219EBC celeste / font blanco
     #023047 azul / font blanco
     #FFB703 amarillo / font negro
-    #FB8500 dorado / font blanco
+    #FB8500 dorado / font negro #000000
  **/
 
  *{
@@ -41,7 +41,7 @@ html{
 }
 
 .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
-    color: #fff;
+    color: #000000;
 }
 
 header {
@@ -95,7 +95,7 @@ nav a:hover {
 }
 
 .texto-bloque {
-    font-family: 'Merriweather', serif;
+    font-family: 'Nunito', sans-serif;
     padding: 2rem 0rem 1rem 0rem;
 
 }
@@ -107,7 +107,8 @@ h4 {
 }
 
 h3 {
-    color: #fff;
+    color: #000000;
+    
 
 }
 
