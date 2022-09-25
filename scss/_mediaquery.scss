@@ -34,12 +34,6 @@
         grid-area: video3;
     }
     
-    
-    
-    
-    
-    
-
     .main-fotos-titulo {
         padding: 10px 50px;
     }
@@ -55,11 +49,8 @@
                                       
         grid-auto-flow: row;
         margin: 2rem 0rem;
-    
     }
-    
-    
-    
+        
     .container__mapa {
         grid-area: container-mapa;
         display: flex;
@@ -97,7 +88,6 @@ body {
 
 }
 
-
 .container__main-fotos-titulo {
     display: grid;
     grid-template-columns: repeat (4, 1fr);
@@ -109,9 +99,7 @@ body {
                         ". . . . ."
 }
 
-
-
-    .container__fotos {
+.container__fotos {
     display: grid;
     grid-template-columns: repeat (4, 1fr);
     grid-template-areas:". . . . "
@@ -119,7 +107,6 @@ body {
                         ". main main ."
                         ". main main ."
                         ". . . . ."
-
 }
 
 main {
@@ -139,8 +126,7 @@ main {
         margin: 10rem 8rem;
         background-color: $colorterciario;
         border-radius: 10px;
-        
-    }
+}
 
 .parrafo1 {
     grid-area: texto;
@@ -184,7 +170,7 @@ main {
 
 .main-fotos-titulo {
         
-    display: grid;
+        display: grid;
         grid-template-columns: 2fr 1fr 1fr 1fr 2fr;
         grid-template-areas:". . titulo . ."
                             ". texto texto texto ."
@@ -195,7 +181,6 @@ main {
         margin: 10rem 8rem;
         background-color: $colorterciario;
         border-radius: 10px;
-    
 }
 
 .titulo-main {
@@ -218,7 +203,6 @@ main div img:hover {
     
 }
 
-
 main div iframe {
     transition: all 0.5s;
     filter: sepia(70%);
@@ -231,21 +215,16 @@ main div iframe:hover {
     
 }
 
-
-
 .container__videos {
         
     display: grid;
-        grid-template-columns: 2fr 1fr 1fr 1fr 2fr;
-        grid-template-areas:". texto texto texto ."
+    grid-template-columns: 2fr 1fr 1fr 1fr 2fr;
+    grid-template-areas:". texto texto texto ."
                             ". video1 video2 video3 .";
-                            
-                            
-        grid-auto-flow: row;  
-        margin: 10rem 8rem;
-        background-color: $colorterciario;
-        border-radius: 10px;
-    
+    grid-auto-flow: row;  
+    margin: 10rem 8rem;
+    background-color: $colorterciario;
+    border-radius: 10px;
 }
 
 .titulovid {
@@ -276,8 +255,7 @@ main div iframe:hover {
 }
 
 footer {
-    background-color: $colorbackgroundsecundario;
-
+    background-color: $colorbackgroundprimario;
 }
 
 .container__footer {
@@ -288,47 +266,60 @@ footer {
     max-width: 1337px;
     margin: auto; 
     margin-top: 100px;
- 
+}
 
+.titulo-footer {
+    font-family: $fontprincipal;
+}
+
+.box__footer {
+    a {
+        font-family: $fontsecundario;
+    }
+}
+
+.terms {
+    p {
+        font-family: $fontsecundario;
+    }
 }
 
 .box__footer {
     display: flex;
     flex-direction: column;
     padding: 40px;
+        .logo img {
+            width: 180px;
+        }
 }
-
-.box__footer .logo img {
-    width: 180px;
-}
-
+    
+    
 .box__footer .terms {
-    max-width: 350px;
-    margin-top: 20px;
-    font-weight: 500;
-    color: $colorsecundario;
-    font-size: 18px;
+        max-width: 350px;
+        margin-top: 20px;
+        font-weight: 500;
+        color: $colorsecundario;
+        font-size: 18px;
 }
-
+    
 .box__footer h2 {
-    margin-bottom: 30px;
-    color: $colorbackgroundprimario;
-    font-weight: 700;
+        margin-bottom: 30px;
+        
+        font-weight: 700;
 }
 
 .box__footer a {
     margin-top: 10px;
     color: $colorsecundario;
     font-weight: 600;
+    .fab {
+        font-size: 20px;
+    }
 }
 
 .box__footer a:hover {
     opacity: 0.8;
-    color: $colorbackgroundprimario;
-}
-
-.box__footer a .fab {
-    font-size: 20px;
+    color: $colorbackgroundsecundario;
 }
 
 .box__copyright {
@@ -336,11 +327,10 @@ footer {
     margin: auto;
     text-align: center;
     padding: 0px 40px;
-}
-
-.box__copyright p {
-    margin-top: 20px;
-    color: $colorterciario;
+        p {
+        margin-top: 20px;
+        color: $colorterciario;
+        }
 }
 
 .box__copyright hr {
@@ -375,7 +365,9 @@ footer {
 }
 
 h2 {
-    color: $colorbackgroundprimario;
+    color: $colorsecundario;
+    font-style: italic;
+
 }
 
 }
