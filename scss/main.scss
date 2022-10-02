@@ -15,6 +15,7 @@
 
 @import "variables";
 
+
  *{
     box-sizing: border-box;
     padding: 0;
@@ -37,7 +38,7 @@ html {
 }
 
 .nav-item {
-    font-family: 'Bebas Neue', cursive, serif;
+    font-family: $fontprincipal;
 }
 
  .bg-light {
@@ -59,18 +60,11 @@ header {
 }
 
 nav a:hover {
-    color: $colorprincipal;
     background-color: $colorbackgroundprimario;
     transition: 0.3s;
     cursor: pointer;
 }
 
-.main-fotos {
-    display: grid;
-    justify-content: center;  
-    align-items: center;   
-    justify-items: center;   
-}
 
 .main-fotos-titulo {
     display: grid;
@@ -78,14 +72,14 @@ nav a:hover {
     align-items: center;   
     justify-items: center;   
 }
-
+/*
 .videos {
     display: grid;
     justify-content: center;  
     align-items: center;   
     justify-items: center;   
 }
-
+*/
 .texto-bloque {
         padding: 2rem 0rem 1rem 0rem;
 }

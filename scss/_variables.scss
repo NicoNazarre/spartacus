@@ -14,10 +14,59 @@ $fontprincipal: 'Roboto Condensed', cursive, serif;
 $fontsecundario: 'Montserrat Alternates', sans-serif;
 /** font-family: 'Rubik Dirt', cursive, sans-serif; */
 $fontnombre: 'Rubik Dirt', cursive, sans-serif;
-/** Colors:
+/* Colors:
     #06D6A0 verde clarito / font blanco
     #118AB2 celeste / font blanco
     #EF476F coral / font blanco
     #073B4C azul / font negro
     #FFD166 dorado / font blanco
- **/
+ */
+
+ /* MAPS */
+$pais:(
+    arg: blue,
+    uru: lightblue,
+    bra: rgb(166, 255, 0),
+    chi: red,
+    par: rgb(190, 30, 30),
+    bol: green,
+    per: rgb(185, 7, 7)
+);
+
+@each $red , $color in $pais{
+    .opc--#{$red}{
+        color: $color;
+    }
+}
+
+/* MAPS GET */
+$main-fotos:(
+    disposicion: grid,
+    justificado: center,
+    elementos: center, 
+    justifi: center
+);
+
+.main-fotos {
+    display: map-get($main-fotos , disposicion );
+    justify-content: map-get($main-fotos , justificado ); 
+    align-items: map-get($main-fotos , elementos );   
+    justify-items: map-get($main-fotos , justifi );   
+}
+
+/* EXTEND */
+nav a:hover {
+    @extend .navbar-brand;
+    background-color: $colorbackgroundprimario;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+/* MIXINS */
+@mixin flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+    
+
