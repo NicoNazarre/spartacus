@@ -107,14 +107,6 @@ nav a:hover {
   align-items: center;
   justify-items: center; }
 
-/*
-.videos {
-    display: grid;
-    justify-content: center;  
-    align-items: center;   
-    justify-items: center;   
-}
-*/
 .texto-bloque {
   padding: 2rem 0rem 1rem 0rem; }
 
@@ -287,9 +279,6 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    /*  display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;*/
     max-width: 1337px;
     margin: auto;
     margin-top: 100px; }
