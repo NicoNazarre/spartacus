@@ -72,6 +72,10 @@
         justify-content: center;
         padding: 1rem 0rem;
     }
+
+    .logo {
+        padding: 21px 214px;
+    }
 }
 
 @media screen and (min-width: 1086px){
@@ -197,22 +201,7 @@ main div img {
 }
 
 main div img:hover {
-    height: 210px;
-    width: 310px;
     filter: none;
-    
-}
-
-main div iframe {
-    transition: all 0.5s;
-    filter: sepia(70%);
-}
-
-main div iframe:hover {
-    height: 210px;
-    width: 310px;
-    filter: none;
-    
 }
 
 .container__videos {

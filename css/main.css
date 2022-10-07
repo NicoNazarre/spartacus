@@ -108,7 +108,20 @@ nav a:hover {
   justify-items: center; }
 
 .texto-bloque {
-  padding: 2rem 0rem 1rem 0rem; }
+  padding: 2rem 0rem 1rem 0rem;
+  margin: 0px 20px; }
+
+.titulo__actividades {
+  margin: 0px 20px; }
+
+.video1 {
+  margin: 0px 87px; }
+
+.video2 {
+  margin: 0px 87px; }
+
+.video3 {
+  margin: 0px 87px; }
 
 h4 {
   color: black;
@@ -122,6 +135,12 @@ h2 {
   color: #a6e6b9;
   font-family: "Roboto Condensed", cursive, serif;
   font-style: italic; }
+
+.logo {
+  padding: 21px 64px; }
+
+.terms {
+  margin: 0px 20px; }
 
 .form-label {
   font-family: "Roboto Condensed", cursive, serif; }
@@ -174,7 +193,9 @@ h2 {
   .mapa {
     display: flex;
     justify-content: center;
-    padding: 1rem 0rem; } }
+    padding: 1rem 0rem; }
+  .logo {
+    padding: 21px 214px; } }
 
 @media screen and (min-width: 1086px) {
   .header-flex {
@@ -240,15 +261,6 @@ h2 {
     transition: all 0.5s;
     filter: sepia(70%); }
   main div img:hover {
-    height: 210px;
-    width: 310px;
-    filter: none; }
-  main div iframe {
-    transition: all 0.5s;
-    filter: sepia(70%); }
-  main div iframe:hover {
-    height: 210px;
-    width: 310px;
     filter: none; }
   .container__videos {
     display: grid;
