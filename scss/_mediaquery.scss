@@ -88,9 +88,11 @@
 
 
 body {
-    background-image: url(../imagenes/fondo.webp)
+    background-image: url(../imagenes/fondo.jpg)
 
 }
+
+
 
 .container__main-fotos-titulo {
     display: grid;
@@ -292,6 +294,10 @@ footer {
         margin-bottom: 30px;
         
         font-weight: 700;
+}
+
+.iconos-redes {
+    flex-direction: row;
 }
 
 .box__footer a {
