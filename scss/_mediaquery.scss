@@ -1,3 +1,31 @@
+@media screen and (min-width: 388px){
+    .logo {
+        padding: 0px 21px;
+        
+    }  
+}
+
+@media screen and (min-width: 464px){
+    .logo {
+        padding: 0px 63px;
+        
+    }  
+}
+
+@media screen and (min-width: 590px){
+    .logo {
+        padding: 0px 124px;
+        
+    }  
+}
+
+@media screen and (min-width: 706px){
+    .logo {
+        padding: 0px 182px;
+        
+    }  
+}
+
 @media screen and (min-width: 768px){
     .header-flex {
         padding: 3rem 3rem 3rem 3rem;
@@ -76,6 +104,18 @@
     .logo {
         padding: 21px 214px;
     }
+
+    .fondo-form {
+        padding: 2rem 6rem; 
+        margin: 6rem 6rem; 
+    }
+}
+
+@media screen and (min-width: 950px){
+    .logo {
+        padding: 0px 303px;
+        
+    } 
 }
 
 @media screen and (min-width: 1086px){
@@ -249,6 +289,10 @@ footer {
     background-color: $colorbackgroundprimario;
 }
 
+.container-footer {
+    margin: 0px 0px -16px 0px;
+}
+
 .container__footer {
     @include flex;
     max-width: 1337px;
@@ -360,6 +404,10 @@ h2 {
     color: $colorsecundario;
     font-style: italic;
 
+}
+
+.fondo-form {
+    margin: 6rem 14rem; 
 }
 
 }
