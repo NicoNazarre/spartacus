@@ -41,7 +41,7 @@ html {
     font-family: $fontprincipal;
 }
 
- .bg-light {
+.bg-light {
     background-color: $colorbackgroundsecundario !important;
  
 }
@@ -58,6 +58,7 @@ header {
     opacity: 0.7;
     z-index: 100;
 }
+
 
 nav a:hover {
     background-color: $colorbackgroundprimario;
@@ -83,15 +84,15 @@ nav a:hover {
 }
 
 .video1 {
-    margin: 0px 87px;
+    margin: 0px 0px;
 }
 
 .video2 {
-    margin: 0px 87px;
+    margin: 0px 0px;
 }
 
 .video3 {
-    margin: 0px 87px;
+    margin: 0px 0px;
 }
 
 h4 {

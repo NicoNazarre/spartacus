@@ -10,6 +10,18 @@
         padding: 0px 63px;
         
     }  
+
+    .video1 {
+        margin: 0px 80px;
+    }
+    
+    .video2 {
+        margin: 0px 80px;
+    }
+    
+    .video3 {
+        margin: 0px 80px;
+    }
 }
 
 @media screen and (min-width: 590px){
@@ -17,6 +29,18 @@
         padding: 0px 124px;
         
     }  
+
+    .video1 {
+        margin: 0px 149px;
+    }
+    
+    .video2 {
+        margin: 0px 149px;
+    }
+    
+    .video3 {
+        margin: 0px 149px;
+    }
 }
 
 @media screen and (min-width: 706px){
@@ -24,6 +48,18 @@
         padding: 0px 182px;
         
     }  
+
+    .video1 {
+        margin: 0px 205px;
+    }
+    
+    .video2 {
+        margin: 0px 205px;
+    }
+    
+    .video3 {
+        margin: 0px 205px;
+    }
 }
 
 @media screen and (min-width: 768px){
@@ -109,18 +145,33 @@
         padding: 2rem 6rem; 
         margin: 6rem 6rem; 
     }
+
+    .fondo-form-chico {
+        padding: 2rem 6rem; 
+        margin: -2rem 0rem; 
+    }
 }
 
 @media screen and (min-width: 950px){
     .logo {
-        padding: 0px 303px;
+        padding: 0px 86px;
         
     } 
+
+    .fondo-form-chico {
+        padding: 2rem 6rem; 
+        margin: 0rem 0rem; 
+    }
 }
 
 @media screen and (min-width: 1086px){
     .header-flex {
         padding: 5rem 3rem 5rem 3rem;
+    }
+
+    .fondo-form-chico {
+        padding: 1rem 6rem; 
+        margin: 0rem 0rem; 
     }
 }
 
@@ -132,6 +183,10 @@ body {
 
 }
 
+.fondo-form-chico {
+    padding: 1rem 6rem; 
+    margin: 0rem 8rem; 
+}
 
 
 .container__main-fotos-titulo {
@@ -265,16 +320,19 @@ main div img:hover {
 .video1 {
     grid-area: video1;
     padding: 3px;
+    margin: 0px 14px;
 }
 
 .video2 {
     grid-area: video2;
     padding: 3px;
+    margin: 0px 14px;
 }
 
 .video3 {
     grid-area: video3;
     padding: 3px;
+    margin: 0px 14px;
 }
 
 .header-flex {
