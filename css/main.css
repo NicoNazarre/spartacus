@@ -28,7 +28,7 @@
     #073B4C azul / font negro
     #FFD166 dorado / font blanco
  */
-/* MAPS */
+/* MAPS *//*
 .opc--arg {
   color: blue; }
 
@@ -50,7 +50,7 @@
 .opc--per {
   color: #b90707; }
 
-/* MAPS GET */
+/* MAPS GET /*
 .main-fotos {
   display: grid;
   justify-content: center;
@@ -191,7 +191,10 @@ h2 {
   .container__videos {
     display: grid;
     grid-template-columns: repeat 1, 1fr;
-    grid-template-areas: "titulovid" "video1"  "video2" "video3";
+    grid-template-areas: "titulovid"
+ "video1" 
+ "video2"
+ "video3";
     justify-content: center;
     align-items: center;
     justify-items: center;
@@ -260,17 +263,29 @@ h2 {
   .container__main-fotos-titulo {
     display: grid;
     grid-template-columns: repeat 4, 1fr;
-    grid-template-areas: ". . . . " ". main main ." ". main main ." ". main main ." ". main main ." ". . . . ."; }
+    grid-template-areas: ". . . . "
+ ". main main ."
+ ". main main ."
+ ". main main ."
+ ". main main ."
+ ". . . . ."; }
   .container__fotos {
     display: grid;
     grid-template-columns: repeat 4, 1fr;
-    grid-template-areas: ". . . . " ". main main ." ". main main ." ". main main ." ". . . . ."; }
+    grid-template-areas: ". . . . "
+ ". main main ."
+ ". main main ."
+ ". main main ."
+ ". . . . ."; }
   main {
     grid-area: main; }
   .main-fotos {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr 1fr 2fr;
-    grid-template-areas: ". texto texto texto ." ". img1 img2 img3 ." ". texto2 texto2 texto2 ." ". img4 img5 img6 .";
+    grid-template-areas: ". texto texto texto ."
+ ". img1 img2 img3 ."
+ ". texto2 texto2 texto2 ."
+ ". img4 img5 img6 .";
     grid-auto-flow: row;
     margin: 10rem 8rem;
     background-color: #118AB2;
@@ -301,7 +316,11 @@ h2 {
   .main-fotos-titulo {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr 1fr 2fr;
-    grid-template-areas: ". . titulo . ." ". texto texto texto ." ". img1 img2 img3 ." ". texto2 texto2 texto2 ." ". img4 img5 img6 .";
+    grid-template-areas: ". . titulo . ."
+ ". texto texto texto ."
+ ". img1 img2 img3 ."
+ ". texto2 texto2 texto2 ."
+ ". img4 img5 img6 .";
     grid-auto-flow: row;
     margin: 10rem 8rem;
     background-color: #118AB2;
@@ -318,7 +337,8 @@ h2 {
   .container__videos {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr 1fr 2fr;
-    grid-template-areas: ". texto texto texto ." ". video1 video2 video3 .";
+    grid-template-areas: ". texto texto texto ."
+ ". video1 video2 video3 .";
     grid-auto-flow: row;
     margin: 10rem 8rem;
     background-color: #118AB2;
